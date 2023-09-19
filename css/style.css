@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
     font-family: sans-serif;
+    
 }
 
 section {
@@ -14,11 +15,21 @@ section {
 
 .container {
     margin-left: 5%;
+    margin-top: 3%;
+    
 }
 
 main {
-    background-color: lightgray;
+    background-color: rgb(221, 234, 238);
     padding-top: 5%;
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+body {
+    height: 100%;
+    padding-bottom: 2%;
 }
 
 .logo {
@@ -43,13 +54,14 @@ button {
     padding: 0.5em;
     border-radius: 10px;
     border: 1px solid;
+    font-size: large;
     
 }
 
 .buttoncontainer {
-    height: 3em;
+    height: 70px;
     margin-left: 5%;
-    padding-top: 15px;
+    padding-top: 20px;
 
 }
 
@@ -63,5 +75,78 @@ button {
     border-color: lightgray;
     color:lightgray;
     
+}
+
+ul {
+    list-style-type: none; 
+    padding-left: 0;       
+    margin-left: 0; 
+          
+}
+
+h2 {
+
+    margin-top: 2%;
+
+}
+
+.long {
+    height:85%;
+    padding-top: 1.5%;
+    margin-bottom: 20px;
     
+    
+} 
+
+li {
+    margin-top: 1em;
+    font-size: 18px;
+    display:block;
+}
+
+span {
+    border-radius: 20px;
+    padding: 0.3em 1em;
+    color:white;
+    
+}
+
+.Editorial {
+    background-color:rgb(0, 200, 255);
+}
+
+.Mobile {
+    background-color: blueviolet;
+}
+
+.Recruiting {
+    background-color: brown;
+}
+
+.Q1 {
+    background-color: chartreuse;
+}
+
+.Website {
+    background-color: darkgreen;
+}
+
+.Sales {
+    background-color: hotpink;
+}
+
+.check {
+    color:aquamarine;
+    border-radius: 100%;
+    border: solid aquamarine 2px;
+    padding: 0.3em;
+    font-size: 10px;
+}
+
+.cross {
+    color:red;
+    border-radius: 100%;
+    border: solid red 2px;
+    padding: 0.3em;
+    font-size: 10px;
 }
