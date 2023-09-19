@@ -11,6 +11,7 @@ section {
     width: 80%;
     margin:5px auto;
     border-radius: 10px;
+    min-height:fit-content;
 }
 
 .container {
@@ -23,6 +24,7 @@ main {
     background-color: rgb(221, 234, 238);
     padding-top: 5%;
     height: 100%;
+    min-height: fit-content;
 }
 html{
     height: 100%;
@@ -80,7 +82,8 @@ button {
 ul {
     list-style-type: none; 
     padding-left: 0;       
-    margin-left: 0; 
+    margin-left: 0;
+    margin-bottom: 5%; 
           
 }
 
